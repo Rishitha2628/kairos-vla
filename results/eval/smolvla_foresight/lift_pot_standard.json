@@ -1,0 +1,313 @@
+{
+ "model_dir": "/home/rishi/kairos/outputs/smolvla_foresight/final",
+ "task": "lift_pot",
+ "variant": "standard",
+ "n_action_steps": 25,
+ "step_limit": 400,
+ "smooth": false,
+ "success_rate": 0.7666666666666667,
+ "successes": 23,
+ "episodes_run": 30,
+ "episodes": [
+  {
+   "seed": 100000,
+   "success": true,
+   "actions": 107,
+   "instruction": "Bring the smooth gray kitchenpot up together",
+   "seconds": 221.6,
+   "jitter": 0.01054,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100000_ok.mp4"
+  },
+  {
+   "seed": 100001,
+   "success": true,
+   "actions": 106,
+   "instruction": "Raise the metal kitchenpot with strong support",
+   "seconds": 257.0,
+   "jitter": 0.01138,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100001_ok.mp4"
+  },
+  {
+   "seed": 100002,
+   "success": true,
+   "actions": 110,
+   "instruction": "Hold the medium kitchenpot made of metal firmly with arms",
+   "seconds": 44.6,
+   "jitter": 0.01072,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100002_ok.mp4"
+  },
+  {
+   "seed": 100003,
+   "success": true,
+   "actions": 107,
+   "instruction": "Bring the medium kitchenpot made of metal upwards together",
+   "seconds": 45.7,
+   "jitter": 0.01149,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100003_ok.mp4"
+  },
+  {
+   "seed": 100006,
+   "success": true,
+   "actions": 102,
+   "instruction": "Hold the dark gray stove kitchenpot firmly and lift it",
+   "seconds": 41.6,
+   "jitter": 0.01116,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100006_ok.mp4"
+  },
+  {
+   "seed": 100007,
+   "success": false,
+   "actions": 400,
+   "instruction": "Secure the gray cylindrical metal kitchenpot and lift upward.",
+   "seconds": 159.7,
+   "jitter": 0.01772,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100007_fail.mp4"
+  },
+  {
+   "seed": 100008,
+   "success": true,
+   "actions": 107,
+   "instruction": "Both arms lift the metal kitchenpot upright",
+   "seconds": 45.4,
+   "jitter": 0.01197,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100008_ok.mp4"
+  },
+  {
+   "seed": 100009,
+   "success": true,
+   "actions": 107,
+   "instruction": "Pick up the metal kitchenpot with both arms",
+   "seconds": 46.8,
+   "jitter": 0.01036,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100009_ok.mp4"
+  },
+  {
+   "seed": 100012,
+   "success": true,
+   "actions": 106,
+   "instruction": "Lift the dark gray stove kitchenpot up together",
+   "seconds": 41.8,
+   "jitter": 0.0105,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100012_ok.mp4"
+  },
+  {
+   "seed": 100013,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the cooking kitchenpot with side grips steadily using arms",
+   "seconds": 170.9,
+   "jitter": 0.01258,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100013_fail.mp4"
+  },
+  {
+   "seed": 100015,
+   "success": true,
+   "actions": 114,
+   "instruction": "Hold and raise the smooth gray kitchenpot together",
+   "seconds": 40.1,
+   "jitter": 0.01098,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100015_ok.mp4"
+  },
+  {
+   "seed": 100016,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the smooth gray kitchenpot carefully using both arms.",
+   "seconds": 163.4,
+   "jitter": 0.01256,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100016_fail.mp4"
+  },
+  {
+   "seed": 100017,
+   "success": true,
+   "actions": 102,
+   "instruction": "Lift the metal kitchenpot upward and hold it",
+   "seconds": 43.0,
+   "jitter": 0.01155,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100017_ok.mp4"
+  },
+  {
+   "seed": 100019,
+   "success": true,
+   "actions": 106,
+   "instruction": "Raise the kitchenpot for boiling and cooking together with arms",
+   "seconds": 45.9,
+   "jitter": 0.01075,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100019_ok.mp4"
+  },
+  {
+   "seed": 100020,
+   "success": true,
+   "actions": 112,
+   "instruction": "Take hold of the gray cylindrical metal kitchenpot and lift up",
+   "seconds": 44.3,
+   "jitter": 0.01289,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100020_ok.mp4"
+  },
+  {
+   "seed": 100021,
+   "success": false,
+   "actions": 400,
+   "instruction": "With arms, raise the metal kitchenpot upward slowly.",
+   "seconds": 165.4,
+   "jitter": 0.01188,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100021_fail.mp4"
+  },
+  {
+   "seed": 100022,
+   "success": true,
+   "actions": 104,
+   "instruction": "Pick up the medium-sized kitchenpot with careful lifting",
+   "seconds": 41.8,
+   "jitter": 0.01049,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100022_ok.mp4"
+  },
+  {
+   "seed": 100023,
+   "success": true,
+   "actions": 107,
+   "instruction": "Grip the dark gray stove kitchenpot firmly and lift",
+   "seconds": 49.5,
+   "jitter": 0.01029,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100023_ok.mp4"
+  },
+  {
+   "seed": 100024,
+   "success": true,
+   "actions": 113,
+   "instruction": "Lift the metal kitchenpot upward with both arms",
+   "seconds": 46.8,
+   "jitter": 0.01107,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100024_ok.mp4"
+  },
+  {
+   "seed": 100025,
+   "success": false,
+   "actions": 400,
+   "instruction": "Securely lift the kitchenpot for boiling and cooking together",
+   "seconds": 170.6,
+   "jitter": 0.02164,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100025_fail.mp4"
+  },
+  {
+   "seed": 100026,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the cylindrical kitchenpot and lift it upwards",
+   "seconds": 170.6,
+   "jitter": 0.01278,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100026_fail.mp4"
+  },
+  {
+   "seed": 100027,
+   "success": true,
+   "actions": 139,
+   "instruction": "Place hands on the gray kitchenpot, then lift.",
+   "seconds": 58.0,
+   "jitter": 0.01048,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100027_ok.mp4"
+  },
+  {
+   "seed": 100028,
+   "success": true,
+   "actions": 109,
+   "instruction": "Lift the medium-sized kitchenpot upward with both arms",
+   "seconds": 43.9,
+   "jitter": 0.01131,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100028_ok.mp4"
+  },
+  {
+   "seed": 100029,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the kitchenpot for boiling and cooking upwards with care",
+   "seconds": 171.9,
+   "jitter": 0.01098,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100029_fail.mp4"
+  },
+  {
+   "seed": 100030,
+   "success": true,
+   "actions": 106,
+   "instruction": "With arms, raise the dark gray stove kitchenpot upward slowly.",
+   "seconds": 45.5,
+   "jitter": 0.01099,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100030_ok.mp4"
+  },
+  {
+   "seed": 100031,
+   "success": true,
+   "actions": 112,
+   "instruction": "Take hold of the cylindrical kitchenpot and lift up",
+   "seconds": 40.4,
+   "jitter": 0.01207,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100031_ok.mp4"
+  },
+  {
+   "seed": 100032,
+   "success": true,
+   "actions": 108,
+   "instruction": "Hold the gray cylindrical metal kitchenpot with both arms",
+   "seconds": 47.9,
+   "jitter": 0.01224,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100032_ok.mp4"
+  },
+  {
+   "seed": 100034,
+   "success": true,
+   "actions": 104,
+   "instruction": "Raise the cylindrical kitchenpot evenly with arms",
+   "seconds": 46.1,
+   "jitter": 0.01063,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100034_ok.mp4"
+  },
+  {
+   "seed": 100035,
+   "success": true,
+   "actions": 106,
+   "instruction": "Hold the metal kitchenpot firmly and move upward.",
+   "seconds": 46.3,
+   "jitter": 0.01027,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100035_ok.mp4"
+  },
+  {
+   "seed": 100036,
+   "success": true,
+   "actions": 101,
+   "instruction": "Bring the medium kitchenpot made of metal up together",
+   "seconds": 42.5,
+   "jitter": 0.01082,
+   "pot_model": "060_kitchenpot/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/lift_pot_standard_seed100036_ok.mp4"
+  }
+ ]
+}

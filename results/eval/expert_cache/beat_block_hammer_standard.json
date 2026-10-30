@@ -1,0 +1,330 @@
+{
+ "100000": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100001": {
+  "solvable": false,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": "expert_failed"
+ },
+ "100002": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100003": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ },
+ "100004": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100005": {
+  "solvable": false,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": "expert_failed"
+ },
+ "100006": {
+  "solvable": false,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": "expert_failed"
+ },
+ "100007": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100008": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100009": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ },
+ "100010": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ },
+ "100011": {
+  "solvable": false,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": "expert_failed"
+ },
+ "100012": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ },
+ "100013": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ },
+ "100014": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ },
+ "100015": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ },
+ "100016": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100017": {
+  "solvable": false,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": "expert_failed"
+ },
+ "100018": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100019": {
+  "solvable": false,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": "expert_failed"
+ },
+ "100020": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100021": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100022": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100023": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ },
+ "100024": {
+  "solvable": false,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": "expert_failed"
+ },
+ "100025": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100026": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100027": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100028": {
+  "solvable": false,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": "expert_failed"
+ },
+ "100029": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100030": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ },
+ "100031": {
+  "solvable": false,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": "expert_failed"
+ },
+ "100032": {
+  "solvable": false,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": "expert_failed"
+ },
+ "100033": {
+  "solvable": false,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": "expert_failed"
+ },
+ "100034": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100035": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ },
+ "100036": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ },
+ "100037": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ },
+ "100038": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100039": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "left"
+  },
+  "reason": ""
+ },
+ "100040": {
+  "solvable": true,
+  "info": {
+   "{A}": "020_hammer/base0",
+   "{a}": "right"
+  },
+  "reason": ""
+ }
+}

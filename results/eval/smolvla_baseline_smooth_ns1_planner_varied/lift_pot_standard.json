@@ -1,0 +1,1517 @@
+{
+ "model_dir": "/home/rishi/kairos/outputs/smolvla_baseline/final",
+ "task": "lift_pot",
+ "variant": "standard",
+ "n_action_steps": 25,
+ "step_limit": 400,
+ "smooth": true,
+ "noise_seed": 1,
+ "n_samples": 8,
+ "planner": "/home/rishi/kairos/outputs/world_model2",
+ "candidates": "varied",
+ "success_rate": 0.5733333333333334,
+ "successes": 86,
+ "episodes_run": 150,
+ "episodes": [
+  {
+   "seed": 100000,
+   "success": true,
+   "actions": 117,
+   "instruction": "Grab the gray kitchenpot using both arms",
+   "seconds": 24.4,
+   "jitter": 0.00138,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100001,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the dark gray stove kitchenpot carefully using both arms.",
+   "seconds": 48.4,
+   "jitter": 0.0012,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100002,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the dark gray stove kitchenpot and lift it upwards",
+   "seconds": 44.9,
+   "jitter": 0.00111,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100003,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold and raise the kitchenpot for boiling and cooking together",
+   "seconds": 48.9,
+   "jitter": 0.00125,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100006,
+   "success": true,
+   "actions": 107,
+   "instruction": "Raise the gray kitchenpot with strong support",
+   "seconds": 14.9,
+   "jitter": 0.00143,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100007,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the smooth gray kitchenpot evenly with arms",
+   "seconds": 53.1,
+   "jitter": 0.00115,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100008,
+   "success": true,
+   "actions": 112,
+   "instruction": "Hold and raise the cylindrical kitchenpot together",
+   "seconds": 15.6,
+   "jitter": 0.00134,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100009,
+   "success": true,
+   "actions": 107,
+   "instruction": "Place hands on the medium kitchenpot made of metal, then lift.",
+   "seconds": 15.1,
+   "jitter": 0.00146,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100012,
+   "success": true,
+   "actions": 116,
+   "instruction": "Raise the smooth gray kitchenpot securely with arms",
+   "seconds": 15.8,
+   "jitter": 0.00147,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100013,
+   "success": true,
+   "actions": 94,
+   "instruction": "Hold the cooking kitchenpot with side grips firmly, then lift.",
+   "seconds": 12.7,
+   "jitter": 0.00154,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100015,
+   "success": true,
+   "actions": 100,
+   "instruction": "Use both arms to raise the smooth gray kitchenpot",
+   "seconds": 19.1,
+   "jitter": 0.00157,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100016,
+   "success": true,
+   "actions": 111,
+   "instruction": "Lift the dark gray stove kitchenpot steadily with support",
+   "seconds": 15.0,
+   "jitter": 0.00143,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100017,
+   "success": true,
+   "actions": 115,
+   "instruction": "With arms, raise the gray kitchenpot upward slowly.",
+   "seconds": 15.4,
+   "jitter": 0.00142,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100019,
+   "success": true,
+   "actions": 98,
+   "instruction": "Lift the dark gray stove kitchenpot up together",
+   "seconds": 13.0,
+   "jitter": 0.00159,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100020,
+   "success": true,
+   "actions": 111,
+   "instruction": "Lift the medium kitchenpot made of metal steadily using arms",
+   "seconds": 14.7,
+   "jitter": 0.00127,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100021,
+   "success": true,
+   "actions": 111,
+   "instruction": "Bring the kitchenpot for boiling and cooking upwards together",
+   "seconds": 20.9,
+   "jitter": 0.00158,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100022,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the gray kitchenpot steadily with support",
+   "seconds": 45.4,
+   "jitter": 0.00118,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100023,
+   "success": true,
+   "actions": 100,
+   "instruction": "Lift the metal kitchenpot upwards with care",
+   "seconds": 13.5,
+   "jitter": 0.00147,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100024,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold the kitchenpot with smooth exterior firmly and lift it",
+   "seconds": 47.5,
+   "jitter": 0.00125,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100025,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the cooking kitchenpot with side grips steadily using arms",
+   "seconds": 45.3,
+   "jitter": 0.00108,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100026,
+   "success": true,
+   "actions": 107,
+   "instruction": "Secure the gray kitchenpot and lift it up",
+   "seconds": 20.6,
+   "jitter": 0.00131,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100027,
+   "success": true,
+   "actions": 108,
+   "instruction": "Take hold of the gray cylindrical metal kitchenpot and lift up",
+   "seconds": 14.9,
+   "jitter": 0.00131,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100028,
+   "success": true,
+   "actions": 98,
+   "instruction": "Both arms lift the dark gray stove kitchenpot upright",
+   "seconds": 13.2,
+   "jitter": 0.00149,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100029,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the smooth gray kitchenpot carefully using both arms.",
+   "seconds": 46.8,
+   "jitter": 0.00113,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100030,
+   "success": true,
+   "actions": 98,
+   "instruction": "Lift the cooking kitchenpot with side grips carefully using arms",
+   "seconds": 13.4,
+   "jitter": 0.00145,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100031,
+   "success": true,
+   "actions": 115,
+   "instruction": "Grab the gray cylindrical metal kitchenpot using both arms",
+   "seconds": 21.0,
+   "jitter": 0.00148,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100032,
+   "success": true,
+   "actions": 106,
+   "instruction": "Support the dark gray stove kitchenpot and raise it upward",
+   "seconds": 15.0,
+   "jitter": 0.00141,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100034,
+   "success": true,
+   "actions": 97,
+   "instruction": "Lift the cylindrical kitchenpot steadily with support",
+   "seconds": 13.0,
+   "jitter": 0.00157,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100035,
+   "success": true,
+   "actions": 108,
+   "instruction": "Hold and raise the round kitchenpot with handles together",
+   "seconds": 15.4,
+   "jitter": 0.00143,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100036,
+   "success": true,
+   "actions": 99,
+   "instruction": "Bring the gray kitchenpot up together",
+   "seconds": 13.1,
+   "jitter": 0.00151,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100037,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold the gray kitchenpot firmly, then lift.",
+   "seconds": 51.6,
+   "jitter": 0.00112,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100038,
+   "success": true,
+   "actions": 120,
+   "instruction": "Grasp the kitchenpot for boiling and cooking and elevate together.",
+   "seconds": 16.0,
+   "jitter": 0.0014,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100039,
+   "success": true,
+   "actions": 107,
+   "instruction": "Place hands on the medium-sized kitchenpot, then lift.",
+   "seconds": 15.0,
+   "jitter": 0.00139,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100040,
+   "success": true,
+   "actions": 133,
+   "instruction": "Use both arms to raise the kitchenpot with smooth exterior.",
+   "seconds": 19.0,
+   "jitter": 0.00141,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100041,
+   "success": true,
+   "actions": 105,
+   "instruction": "Lift the gray kitchenpot upward and hold it",
+   "seconds": 15.0,
+   "jitter": 0.00142,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100043,
+   "success": false,
+   "actions": 400,
+   "instruction": "Support the medium kitchenpot made of metal and raise it upward",
+   "seconds": 51.1,
+   "jitter": 0.00114,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100044,
+   "success": true,
+   "actions": 100,
+   "instruction": "Raise the smooth gray kitchenpot evenly with arms",
+   "seconds": 13.5,
+   "jitter": 0.0016,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100045,
+   "success": true,
+   "actions": 115,
+   "instruction": "Carry the smooth gray kitchenpot securely using arms",
+   "seconds": 15.5,
+   "jitter": 0.00157,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100046,
+   "success": true,
+   "actions": 394,
+   "instruction": "Raise the smooth gray kitchenpot together using arms",
+   "seconds": 46.7,
+   "jitter": 0.00106,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100047,
+   "success": true,
+   "actions": 110,
+   "instruction": "Raise the metal kitchenpot together with arms",
+   "seconds": 15.8,
+   "jitter": 0.0015,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100048,
+   "success": true,
+   "actions": 104,
+   "instruction": "Grab the gray kitchenpot and lift together",
+   "seconds": 20.7,
+   "jitter": 0.00145,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100049,
+   "success": true,
+   "actions": 230,
+   "instruction": "Secure the medium kitchenpot made of metal and lift it up",
+   "seconds": 28.2,
+   "jitter": 0.00113,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100050,
+   "success": false,
+   "actions": 400,
+   "instruction": "Take hold of the round kitchenpot with handles and lift up",
+   "seconds": 45.5,
+   "jitter": 0.00109,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100053,
+   "success": true,
+   "actions": 105,
+   "instruction": "Grab the metal kitchenpot using both arms",
+   "seconds": 15.3,
+   "jitter": 0.00149,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100054,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the cylindrical kitchenpot securely with arms",
+   "seconds": 48.7,
+   "jitter": 0.00124,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100055,
+   "success": false,
+   "actions": 400,
+   "instruction": "Use both arms to raise the dark gray stove kitchenpot",
+   "seconds": 53.5,
+   "jitter": 0.0011,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100056,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the kitchenpot with smooth exterior with strong support",
+   "seconds": 51.1,
+   "jitter": 0.00107,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100057,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold and raise the kitchenpot with smooth exterior together",
+   "seconds": 47.7,
+   "jitter": 0.0011,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100058,
+   "success": true,
+   "actions": 105,
+   "instruction": "Hold the cooking kitchenpot with side grips firmly and move upward.",
+   "seconds": 16.5,
+   "jitter": 0.00152,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100059,
+   "success": true,
+   "actions": 109,
+   "instruction": "Carry the metal kitchenpot securely using arms",
+   "seconds": 15.6,
+   "jitter": 0.00153,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100060,
+   "success": true,
+   "actions": 101,
+   "instruction": "Lift the cooking kitchenpot with side grips upward and hold it",
+   "seconds": 21.1,
+   "jitter": 0.0015,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100062,
+   "success": false,
+   "actions": 400,
+   "instruction": "Securely lift the cooking kitchenpot with side grips together",
+   "seconds": 45.3,
+   "jitter": 0.00115,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100063,
+   "success": true,
+   "actions": 101,
+   "instruction": "Use arms to lift the kitchenpot for boiling and cooking upward",
+   "seconds": 16.7,
+   "jitter": 0.00141,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100064,
+   "success": true,
+   "actions": 128,
+   "instruction": "Hold and raise the dark gray stove kitchenpot together",
+   "seconds": 21.8,
+   "jitter": 0.00137,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100065,
+   "success": true,
+   "actions": 114,
+   "instruction": "Raise the dark gray stove kitchenpot together with arms",
+   "seconds": 15.4,
+   "jitter": 0.00129,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100066,
+   "success": false,
+   "actions": 400,
+   "instruction": "Use arms to lift the metal kitchenpot upward",
+   "seconds": 53.1,
+   "jitter": 0.00113,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100067,
+   "success": true,
+   "actions": 97,
+   "instruction": "Lift the smooth gray kitchenpot steadily using arms",
+   "seconds": 13.0,
+   "jitter": 0.00148,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100068,
+   "success": true,
+   "actions": 97,
+   "instruction": "Grab the medium-sized kitchenpot and lift together",
+   "seconds": 15.1,
+   "jitter": 0.00155,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100069,
+   "success": false,
+   "actions": 400,
+   "instruction": "Use both arms to raise the round kitchenpot with handles",
+   "seconds": 47.2,
+   "jitter": 0.00112,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100070,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the metal kitchenpot together with arms",
+   "seconds": 46.1,
+   "jitter": 0.00108,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100071,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the medium-sized kitchenpot and lift it upwards",
+   "seconds": 55.0,
+   "jitter": 0.00124,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100072,
+   "success": true,
+   "actions": 111,
+   "instruction": "Lift the medium-sized kitchenpot upward and hold it",
+   "seconds": 15.2,
+   "jitter": 0.00134,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100073,
+   "success": false,
+   "actions": 400,
+   "instruction": "With arms, raise the cooking kitchenpot with side grips upward slowly.",
+   "seconds": 47.6,
+   "jitter": 0.0012,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100075,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the metal kitchenpot upward with both arms",
+   "seconds": 49.2,
+   "jitter": 0.00117,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100077,
+   "success": true,
+   "actions": 101,
+   "instruction": "Raise the medium kitchenpot made of metal upward with both hands",
+   "seconds": 15.0,
+   "jitter": 0.00145,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100078,
+   "success": false,
+   "actions": 400,
+   "instruction": "Use both arms to raise the kitchenpot for boiling and cooking.",
+   "seconds": 55.3,
+   "jitter": 0.00112,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100079,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the gray kitchenpot and lift it upwards",
+   "seconds": 51.7,
+   "jitter": 0.00115,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100082,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the cooking kitchenpot with side grips upward with both hands",
+   "seconds": 53.4,
+   "jitter": 0.00111,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100083,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the metal kitchenpot and lift together",
+   "seconds": 50.8,
+   "jitter": 0.00111,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100085,
+   "success": true,
+   "actions": 108,
+   "instruction": "Grip the medium kitchenpot made of metal firmly and lift",
+   "seconds": 15.2,
+   "jitter": 0.00144,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100086,
+   "success": true,
+   "actions": 117,
+   "instruction": "Lift the kitchenpot for boiling and cooking carefully using both arms.",
+   "seconds": 21.5,
+   "jitter": 0.00152,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100087,
+   "success": true,
+   "actions": 104,
+   "instruction": "Grab the kitchenpot for boiling and cooking and lift together",
+   "seconds": 14.7,
+   "jitter": 0.00138,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100088,
+   "success": true,
+   "actions": 109,
+   "instruction": "Hold the smooth gray kitchenpot firmly and lift it",
+   "seconds": 15.5,
+   "jitter": 0.00143,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100089,
+   "success": true,
+   "actions": 110,
+   "instruction": "Use both arms to raise the cylindrical kitchenpot.",
+   "seconds": 17.3,
+   "jitter": 0.00133,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100090,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the gray kitchenpot and lift it up",
+   "seconds": 46.9,
+   "jitter": 0.00105,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100091,
+   "success": false,
+   "actions": 400,
+   "instruction": "Bring the gray kitchenpot upwards together",
+   "seconds": 54.6,
+   "jitter": 0.00113,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100093,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the medium kitchenpot made of metal up using your arms",
+   "seconds": 48.9,
+   "jitter": 0.00116,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100094,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grasp the metal kitchenpot and elevate together.",
+   "seconds": 51.3,
+   "jitter": 0.00114,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100095,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold the dark gray stove kitchenpot and lift upward",
+   "seconds": 54.1,
+   "jitter": 0.0013,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100096,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grip the dark gray stove kitchenpot firmly and lift",
+   "seconds": 56.1,
+   "jitter": 0.00115,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100098,
+   "success": true,
+   "actions": 100,
+   "instruction": "Securely lift the round kitchenpot with handles together",
+   "seconds": 19.0,
+   "jitter": 0.00151,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100099,
+   "success": true,
+   "actions": 117,
+   "instruction": "Grab the kitchenpot for boiling and cooking and lift it up",
+   "seconds": 15.5,
+   "jitter": 0.00143,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100100,
+   "success": true,
+   "actions": 100,
+   "instruction": "Raise the smooth gray kitchenpot using both arms",
+   "seconds": 13.3,
+   "jitter": 0.00152,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100102,
+   "success": true,
+   "actions": 97,
+   "instruction": "Hold and raise the metal kitchenpot together",
+   "seconds": 13.2,
+   "jitter": 0.00158,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100104,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the dark gray stove kitchenpot carefully using arms",
+   "seconds": 50.8,
+   "jitter": 0.00111,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100105,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold and raise the medium-sized kitchenpot together",
+   "seconds": 52.1,
+   "jitter": 0.00115,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100106,
+   "success": true,
+   "actions": 360,
+   "instruction": "Secure the smooth gray kitchenpot and lift it up",
+   "seconds": 51.1,
+   "jitter": 0.00122,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100107,
+   "success": false,
+   "actions": 400,
+   "instruction": "Secure the kitchenpot for boiling and cooking and lift upward.",
+   "seconds": 49.5,
+   "jitter": 0.00107,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100108,
+   "success": true,
+   "actions": 98,
+   "instruction": "Hold the kitchenpot for boiling and cooking with both arms",
+   "seconds": 13.1,
+   "jitter": 0.00148,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100109,
+   "success": true,
+   "actions": 95,
+   "instruction": "Use arms to lift the kitchenpot for boiling and cooking upward",
+   "seconds": 14.7,
+   "jitter": 0.00161,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100110,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the metal kitchenpot evenly with arms",
+   "seconds": 52.7,
+   "jitter": 0.00112,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100111,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grip the cylindrical kitchenpot firmly and lift",
+   "seconds": 51.4,
+   "jitter": 0.00117,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100113,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grasp the smooth gray kitchenpot and elevate together.",
+   "seconds": 52.4,
+   "jitter": 0.00129,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100114,
+   "success": true,
+   "actions": 105,
+   "instruction": "Pick up the dark gray stove kitchenpot with careful lifting",
+   "seconds": 14.8,
+   "jitter": 0.00148,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100115,
+   "success": true,
+   "actions": 100,
+   "instruction": "Lift the gray kitchenpot steadily using arms",
+   "seconds": 15.4,
+   "jitter": 0.00157,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100116,
+   "success": true,
+   "actions": 106,
+   "instruction": "Grip the cooking kitchenpot with side grips firmly and lift",
+   "seconds": 20.6,
+   "jitter": 0.0014,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100117,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold the cooking kitchenpot with side grips firmly with arms",
+   "seconds": 49.3,
+   "jitter": 0.00105,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100118,
+   "success": true,
+   "actions": 96,
+   "instruction": "Secure the gray kitchenpot and lift upward.",
+   "seconds": 13.1,
+   "jitter": 0.00161,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100122,
+   "success": true,
+   "actions": 283,
+   "instruction": "Pick up the medium kitchenpot made of metal with both arms",
+   "seconds": 36.3,
+   "jitter": 0.00119,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100124,
+   "success": true,
+   "actions": 99,
+   "instruction": "Hold the medium kitchenpot made of metal firmly and lift it",
+   "seconds": 13.3,
+   "jitter": 0.00149,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100125,
+   "success": true,
+   "actions": 95,
+   "instruction": "Take hold of the gray cylindrical metal kitchenpot and lift up",
+   "seconds": 18.4,
+   "jitter": 0.0014,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100126,
+   "success": true,
+   "actions": 96,
+   "instruction": "Use both arms to raise the round kitchenpot with handles",
+   "seconds": 12.9,
+   "jitter": 0.00161,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100127,
+   "success": true,
+   "actions": 110,
+   "instruction": "Lift the round kitchenpot with handles up together",
+   "seconds": 15.5,
+   "jitter": 0.00141,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100128,
+   "success": true,
+   "actions": 235,
+   "instruction": "Grab the kitchenpot for boiling and cooking and lift together",
+   "seconds": 29.1,
+   "jitter": 0.00118,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100129,
+   "success": true,
+   "actions": 99,
+   "instruction": "Grab the metal kitchenpot and lift it up",
+   "seconds": 13.4,
+   "jitter": 0.0016,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100130,
+   "success": true,
+   "actions": 105,
+   "instruction": "Hold the dark gray stove kitchenpot firmly, then lift.",
+   "seconds": 20.4,
+   "jitter": 0.00133,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100131,
+   "success": true,
+   "actions": 94,
+   "instruction": "Hold the kitchenpot for boiling and cooking with both arms",
+   "seconds": 12.7,
+   "jitter": 0.00157,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100132,
+   "success": false,
+   "actions": 400,
+   "instruction": "Use both arms to raise the smooth gray kitchenpot.",
+   "seconds": 48.6,
+   "jitter": 0.00124,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100134,
+   "success": false,
+   "actions": 400,
+   "instruction": "Secure the cylindrical kitchenpot and lift it up",
+   "seconds": 46.2,
+   "jitter": 0.0012,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100136,
+   "success": true,
+   "actions": 109,
+   "instruction": "Lift the cylindrical kitchenpot carefully using arms",
+   "seconds": 15.6,
+   "jitter": 0.00137,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100138,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the cylindrical kitchenpot using both arms",
+   "seconds": 53.2,
+   "jitter": 0.00126,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100140,
+   "success": false,
+   "actions": 400,
+   "instruction": "Bring the cooking kitchenpot with side grips up together",
+   "seconds": 48.0,
+   "jitter": 0.00113,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100141,
+   "success": true,
+   "actions": 94,
+   "instruction": "Lift the gray kitchenpot carefully using arms",
+   "seconds": 13.0,
+   "jitter": 0.00172,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100142,
+   "success": false,
+   "actions": 400,
+   "instruction": "Pick up the round kitchenpot with handles with careful lifting",
+   "seconds": 47.5,
+   "jitter": 0.00116,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100143,
+   "success": false,
+   "actions": 400,
+   "instruction": "Securely lift the cylindrical kitchenpot together",
+   "seconds": 49.3,
+   "jitter": 0.00135,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100145,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the cooking kitchenpot with side grips using both arms now.",
+   "seconds": 52.5,
+   "jitter": 0.00107,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100146,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the dark gray stove kitchenpot carefully using both arms.",
+   "seconds": 49.4,
+   "jitter": 0.00112,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100147,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the round kitchenpot with handles with strong support",
+   "seconds": 51.2,
+   "jitter": 0.00115,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100149,
+   "success": false,
+   "actions": 400,
+   "instruction": "Pick up the kitchenpot for boiling and cooking with careful lifting",
+   "seconds": 50.9,
+   "jitter": 0.00132,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100150,
+   "success": true,
+   "actions": 116,
+   "instruction": "Secure the medium kitchenpot made of metal and lift upward.",
+   "seconds": 17.7,
+   "jitter": 0.00138,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100151,
+   "success": true,
+   "actions": 107,
+   "instruction": "Raise the dark gray stove kitchenpot together using arms",
+   "seconds": 21.2,
+   "jitter": 0.00159,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100152,
+   "success": true,
+   "actions": 109,
+   "instruction": "Carry the cylindrical kitchenpot securely using arms",
+   "seconds": 15.3,
+   "jitter": 0.00149,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100154,
+   "success": true,
+   "actions": 108,
+   "instruction": "Hold and raise the kitchenpot with smooth exterior together",
+   "seconds": 15.2,
+   "jitter": 0.00146,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100156,
+   "success": true,
+   "actions": 89,
+   "instruction": "Grab the cooking kitchenpot with side grips and lift together",
+   "seconds": 12.6,
+   "jitter": 0.00159,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100157,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold the cooking kitchenpot with side grips and lift upward",
+   "seconds": 50.5,
+   "jitter": 0.00113,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100158,
+   "success": false,
+   "actions": 400,
+   "instruction": "Bring the gray kitchenpot upwards together",
+   "seconds": 50.7,
+   "jitter": 0.0012,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100160,
+   "success": false,
+   "actions": 400,
+   "instruction": "Carry the metal kitchenpot securely using arms",
+   "seconds": 55.9,
+   "jitter": 0.00117,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100162,
+   "success": true,
+   "actions": 105,
+   "instruction": "Lift the cylindrical kitchenpot carefully using arms",
+   "seconds": 14.9,
+   "jitter": 0.00148,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100163,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the cylindrical kitchenpot upwards with care",
+   "seconds": 51.2,
+   "jitter": 0.00118,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100164,
+   "success": true,
+   "actions": 133,
+   "instruction": "Raise the cooking kitchenpot with side grips together using arms",
+   "seconds": 19.2,
+   "jitter": 0.00148,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100165,
+   "success": false,
+   "actions": 400,
+   "instruction": "Carry the gray cylindrical metal kitchenpot securely using arms",
+   "seconds": 53.3,
+   "jitter": 0.00114,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100166,
+   "success": true,
+   "actions": 117,
+   "instruction": "Hold the gray cylindrical metal kitchenpot firmly and lift it",
+   "seconds": 18.0,
+   "jitter": 0.0013,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100167,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the cooking kitchenpot with side grips carefully using both arms.",
+   "seconds": 52.7,
+   "jitter": 0.00123,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100169,
+   "success": true,
+   "actions": 111,
+   "instruction": "Raise the cylindrical kitchenpot securely with arms",
+   "seconds": 15.4,
+   "jitter": 0.0014,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100170,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the smooth gray kitchenpot with strong support",
+   "seconds": 52.4,
+   "jitter": 0.00113,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100171,
+   "success": true,
+   "actions": 106,
+   "instruction": "Raise the medium-sized kitchenpot upward with both hands",
+   "seconds": 21.2,
+   "jitter": 0.00146,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100172,
+   "success": true,
+   "actions": 114,
+   "instruction": "Lift the cooking kitchenpot with side grips steadily with support",
+   "seconds": 15.3,
+   "jitter": 0.0016,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100173,
+   "success": true,
+   "actions": 101,
+   "instruction": "Pick up the smooth gray kitchenpot with both arms",
+   "seconds": 15.0,
+   "jitter": 0.00169,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100174,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the gray kitchenpot using both arms",
+   "seconds": 54.0,
+   "jitter": 0.0012,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100175,
+   "success": true,
+   "actions": 95,
+   "instruction": "Raise the gray cylindrical metal kitchenpot together with arms",
+   "seconds": 13.2,
+   "jitter": 0.00149,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100176,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold the kitchenpot with smooth exterior with both arms",
+   "seconds": 53.9,
+   "jitter": 0.00128,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100177,
+   "success": true,
+   "actions": 105,
+   "instruction": "Use both arms to raise the medium kitchenpot made of metal.",
+   "seconds": 16.9,
+   "jitter": 0.00149,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100178,
+   "success": false,
+   "actions": 400,
+   "instruction": "Secure the round kitchenpot with handles and lift upward.",
+   "seconds": 52.1,
+   "jitter": 0.00114,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100179,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the kitchenpot for boiling and cooking evenly with arms",
+   "seconds": 54.0,
+   "jitter": 0.00108,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100180,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the smooth gray kitchenpot using both arms",
+   "seconds": 50.8,
+   "jitter": 0.00121,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100181,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grip the cooking kitchenpot with side grips firmly and lift",
+   "seconds": 51.4,
+   "jitter": 0.00105,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100183,
+   "success": true,
+   "actions": 91,
+   "instruction": "Hold the smooth gray kitchenpot and lift upward",
+   "seconds": 14.8,
+   "jitter": 0.00162,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100184,
+   "success": true,
+   "actions": 148,
+   "instruction": "Bring the gray cylindrical metal kitchenpot up together",
+   "seconds": 20.0,
+   "jitter": 0.00155,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100185,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the cylindrical kitchenpot and lift it up",
+   "seconds": 47.5,
+   "jitter": 0.00117,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  },
+  {
+   "seed": 100186,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold the gray kitchenpot firmly and move upward.",
+   "seconds": 48.3,
+   "jitter": 0.00124,
+   "pot_model": "060_kitchenpot/base0",
+   "video": null
+  }
+ ]
+}

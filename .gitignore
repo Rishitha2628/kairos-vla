@@ -1,0 +1,8 @@
+.venv/
+.venv-train/
+__pycache__/
+data/
+outputs/
+RoboTwin/
+lerobot/
+*.mp4

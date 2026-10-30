@@ -1,0 +1,23 @@
+{
+  "dataset_root": "/home/rishi/kairos/data/robotwin_clean_2task",
+  "output_dir": "/home/rishi/kairos/outputs/smolvla_baseline",
+  "foresight": "none",
+  "base": "lerobot/smolvla_base",
+  "steps": "20000",
+  "batch_size": "8",
+  "lr": "0.0001",
+  "warmup": "500",
+  "chunk_size": "50",
+  "img": "256",
+  "save_every": "1000",
+  "num_workers": "2",
+  "cpu_threads": "2",
+  "cool_above": "85",
+  "cool_to": "82",
+  "gpu_cool_above": "82",
+  "gpu_cool_to": "79",
+  "no_augment": "False",
+  "resume": "True",
+  "seed": "0",
+  "device": "cuda"
+}

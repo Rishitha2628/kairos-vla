@@ -1,0 +1,313 @@
+{
+ "model_dir": "/home/rishi/kairos/outputs/smolvla_foresight/final",
+ "task": "beat_block_hammer",
+ "variant": "standard",
+ "n_action_steps": 25,
+ "step_limit": 400,
+ "smooth": false,
+ "success_rate": 0.7,
+ "successes": 21,
+ "episodes_run": 30,
+ "episodes": [
+  {
+   "seed": 100000,
+   "success": false,
+   "actions": 400,
+   "instruction": "Pick up the grippy handle hammer and strike the block",
+   "seconds": 642.7,
+   "jitter": 0.01628,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100000_fail.mp4"
+  },
+  {
+   "seed": 100002,
+   "success": true,
+   "actions": 112,
+   "instruction": "Beat the block after grabbing the hammer with two-tone handle",
+   "seconds": 200.4,
+   "jitter": 0.01281,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100002_ok.mp4"
+  },
+  {
+   "seed": 100003,
+   "success": true,
+   "actions": 107,
+   "instruction": "Pick up the hammer with two-tone handle and use it on the block",
+   "seconds": 31.2,
+   "jitter": 0.01095,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100003_ok.mp4"
+  },
+  {
+   "seed": 100004,
+   "success": true,
+   "actions": 229,
+   "instruction": "Utilize the left arm to hold the hammer with two-tone handle and strike.",
+   "seconds": 69.9,
+   "jitter": 0.01765,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100004_ok.mp4"
+  },
+  {
+   "seed": 100007,
+   "success": false,
+   "actions": 400,
+   "instruction": "Take the handheld medium claw hammer and smash the block.",
+   "seconds": 123.8,
+   "jitter": 0.01547,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100007_fail.mp4"
+  },
+  {
+   "seed": 100008,
+   "success": true,
+   "actions": 113,
+   "instruction": "Lift the hammer for nails with the left arm then strike block",
+   "seconds": 34.2,
+   "jitter": 0.01461,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100008_ok.mp4"
+  },
+  {
+   "seed": 100009,
+   "success": true,
+   "actions": 275,
+   "instruction": "Use the right arm to take the hammer for nails and strike",
+   "seconds": 104.8,
+   "jitter": 0.01698,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100009_ok.mp4"
+  },
+  {
+   "seed": 100010,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grip the hammer for nails firmly and hit the block.",
+   "seconds": 147.2,
+   "jitter": 0.01637,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100010_fail.mp4"
+  },
+  {
+   "seed": 100012,
+   "success": true,
+   "actions": 140,
+   "instruction": "Take the silver curved hammer head and hammer the block",
+   "seconds": 55.4,
+   "jitter": 0.01185,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100012_ok.mp4"
+  },
+  {
+   "seed": 100013,
+   "success": true,
+   "actions": 102,
+   "instruction": "With the right arm, grab the yellow and black hammer grip and beat the block.",
+   "seconds": 37.5,
+   "jitter": 0.0119,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100013_ok.mp4"
+  },
+  {
+   "seed": 100014,
+   "success": true,
+   "actions": 106,
+   "instruction": "Grab the silver curved hammer head with the right arm and strike block",
+   "seconds": 38.4,
+   "jitter": 0.01241,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100014_ok.mp4"
+  },
+  {
+   "seed": 100015,
+   "success": true,
+   "actions": 128,
+   "instruction": "Take the grippy handle hammer and beat the block",
+   "seconds": 43.3,
+   "jitter": 0.01286,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100015_ok.mp4"
+  },
+  {
+   "seed": 100016,
+   "success": true,
+   "actions": 177,
+   "instruction": "Make the left arm grab the grippy handle hammer and strike the block.",
+   "seconds": 61.9,
+   "jitter": 0.01833,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100016_ok.mp4"
+  },
+  {
+   "seed": 100018,
+   "success": true,
+   "actions": 193,
+   "instruction": "Grab the yellow and black hammer grip using the left arm, then beat the block",
+   "seconds": 63.6,
+   "jitter": 0.01914,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100018_ok.mp4"
+  },
+  {
+   "seed": 100020,
+   "success": true,
+   "actions": 113,
+   "instruction": "With the left arm, pick up the handheld medium claw hammer and strike the block.",
+   "seconds": 33.8,
+   "jitter": 0.01222,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100020_ok.mp4"
+  },
+  {
+   "seed": 100021,
+   "success": true,
+   "actions": 131,
+   "instruction": "Grab the hammer for nails with the left arm and beat the block.",
+   "seconds": 39.6,
+   "jitter": 0.01202,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100021_ok.mp4"
+  },
+  {
+   "seed": 100022,
+   "success": false,
+   "actions": 400,
+   "instruction": "Take the medium-sized metal hammer using the left arm, hit the block.",
+   "seconds": 125.3,
+   "jitter": 0.01728,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100022_fail.mp4"
+  },
+  {
+   "seed": 100023,
+   "success": true,
+   "actions": 109,
+   "instruction": "With the right arm, grab the silver curved hammer head and hammer the block",
+   "seconds": 34.6,
+   "jitter": 0.01164,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100023_ok.mp4"
+  },
+  {
+   "seed": 100025,
+   "success": true,
+   "actions": 122,
+   "instruction": "Grab the black and yellow hammer grip with the left arm and strike block",
+   "seconds": 38.0,
+   "jitter": 0.0145,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100025_ok.mp4"
+  },
+  {
+   "seed": 100026,
+   "success": true,
+   "actions": 113,
+   "instruction": "Lift the nail-driving hammer, then beat the block.",
+   "seconds": 34.0,
+   "jitter": 0.01265,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100026_ok.mp4"
+  },
+  {
+   "seed": 100027,
+   "success": true,
+   "actions": 113,
+   "instruction": "Employ the left arm to grab the silver hammer and hit.",
+   "seconds": 33.8,
+   "jitter": 0.01182,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100027_ok.mp4"
+  },
+  {
+   "seed": 100029,
+   "success": false,
+   "actions": 400,
+   "instruction": "Pick up the black and yellow hammer grip using the left arm then beat",
+   "seconds": 152.9,
+   "jitter": 0.01543,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100029_fail.mp4"
+  },
+  {
+   "seed": 100030,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the silver curved hammer head with the right arm and beat the block.",
+   "seconds": 156.6,
+   "jitter": 0.0157,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100030_fail.mp4"
+  },
+  {
+   "seed": 100034,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the nail-driving hammer with the left arm and hit the block",
+   "seconds": 150.3,
+   "jitter": 0.01614,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100034_fail.mp4"
+  },
+  {
+   "seed": 100035,
+   "success": true,
+   "actions": 336,
+   "instruction": "Grip the hammer for nails firmly and hit the block.",
+   "seconds": 134.6,
+   "jitter": 0.01435,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100035_ok.mp4"
+  },
+  {
+   "seed": 100036,
+   "success": true,
+   "actions": 111,
+   "instruction": "Pick up the hammer with two-tone handle and strike the block",
+   "seconds": 37.8,
+   "jitter": 0.01302,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100036_ok.mp4"
+  },
+  {
+   "seed": 100037,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the plastic handle metal hammer and use it to hit",
+   "seconds": 152.5,
+   "jitter": 0.01546,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100037_fail.mp4"
+  },
+  {
+   "seed": 100038,
+   "success": true,
+   "actions": 107,
+   "instruction": "Use the left arm to grab the medium-sized metal hammer and beat",
+   "seconds": 41.5,
+   "jitter": 0.01182,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100038_ok.mp4"
+  },
+  {
+   "seed": 100039,
+   "success": false,
+   "actions": 400,
+   "instruction": "Pick up the hammer with claw-shaped end using the left arm, hammer the block.",
+   "seconds": 157.4,
+   "jitter": 0.01677,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100039_fail.mp4"
+  },
+  {
+   "seed": 100040,
+   "success": true,
+   "actions": 164,
+   "instruction": "Take the medium-sized metal hammer using the right arm, hit the block.",
+   "seconds": 58.7,
+   "jitter": 0.01359,
+   "pot_model": "020_hammer/base0",
+   "video": "/home/rishi/kairos/outputs/eval/smolvla_foresight/videos/beat_block_hammer_standard_seed100040_ok.mp4"
+  }
+ ]
+}

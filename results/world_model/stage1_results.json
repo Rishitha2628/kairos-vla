@@ -1,0 +1,33 @@
+{
+ "horizon": 8,
+ "held_out_demos": [
+  19,
+  25,
+  30,
+  31,
+  32,
+  52,
+  66,
+  74,
+  76,
+  98
+ ],
+ "copy_now": 0.889411985874176,
+ "blind": 0.5397670269012451,
+ "real_actions": 0.5200705528259277,
+ "wrong_actions": 0.6461703181266785,
+ "real_beats_wrong": 0.866156816482544,
+ "rollout_24_steps": {
+  "copy_now": 1.2796478271484375,
+  "blind": 0.6671960353851318,
+  "real_actions": 0.6195220351219177
+ },
+ "args": {
+  "horizon": "8",
+  "epochs": "30",
+  "batch_size": "64",
+  "lr": "0.0003",
+  "seed": "0",
+  "out": "/home/rishi/kairos/outputs/world_model"
+ }
+}

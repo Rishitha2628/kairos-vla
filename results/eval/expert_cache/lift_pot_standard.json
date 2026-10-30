@@ -1,0 +1,3089 @@
+{
+ "100000": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100001": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100002": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100003": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100004": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100005": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100006": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100007": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100008": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100009": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100010": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100011": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100012": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100013": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100014": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100015": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100016": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100017": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100018": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100019": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100020": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100021": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100022": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100023": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100024": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100025": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100026": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100027": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100028": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100029": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100030": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100031": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100032": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100033": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100034": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100035": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100036": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100037": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100038": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100039": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100040": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100041": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100042": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100043": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100044": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100045": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100046": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100047": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100048": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100049": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100050": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100051": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100052": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100053": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100054": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100055": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100056": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100057": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100058": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100059": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100060": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100061": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100062": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100063": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100064": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100065": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100066": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100067": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100068": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100069": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100070": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100071": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100072": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100073": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100074": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100075": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100076": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100077": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100078": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100079": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100080": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100081": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100082": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100083": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100084": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100085": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100086": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100087": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100088": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100089": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100090": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100091": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100092": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100093": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100094": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100095": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100096": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100097": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100098": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100099": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100100": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100101": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100102": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100103": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100104": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100105": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100106": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100107": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100108": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100109": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100110": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100111": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100112": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100113": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100114": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100115": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100116": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100117": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100118": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100119": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100120": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100121": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100122": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100123": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100124": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100125": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100126": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100127": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100128": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100129": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100130": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100131": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100132": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100133": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100134": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100135": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100136": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100137": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100138": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100139": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100140": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100141": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100142": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100143": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100144": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100145": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100146": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100147": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100148": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100149": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100150": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100151": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100152": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100153": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100154": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100155": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100156": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100157": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100158": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100159": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100160": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100161": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100162": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100163": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100164": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100165": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100166": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100167": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100168": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100169": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100170": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100171": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100172": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100173": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100174": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100175": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100176": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100177": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100178": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100179": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100180": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100181": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100182": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "100183": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100184": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100185": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "100186": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200000": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200001": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200002": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200003": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200004": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200005": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200006": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200007": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200008": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200009": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200010": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200011": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200012": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200013": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200014": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200015": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200016": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200017": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200018": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200019": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200020": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200021": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200022": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200023": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200024": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200025": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200026": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200027": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200028": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200029": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200030": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200031": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200032": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200033": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200034": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200035": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200036": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200037": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200038": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200039": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200040": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200041": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200042": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200043": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200044": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200045": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200046": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200047": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200048": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200049": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200050": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200051": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200052": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200053": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200054": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200055": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200056": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200057": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200058": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200059": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200060": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200061": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200062": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200063": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200064": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200065": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200066": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200067": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200068": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200069": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200070": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200071": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200072": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200073": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200074": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200075": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200076": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200077": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200078": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200079": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200080": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200081": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200082": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200083": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200084": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200085": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200086": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200087": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200088": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200089": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200090": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200091": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200092": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200093": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200094": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200095": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200096": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200097": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200098": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200099": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200100": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200101": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200102": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200103": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200104": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200105": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200106": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200107": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200108": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200109": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200110": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200111": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200112": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200113": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200114": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200115": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200116": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200117": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200118": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200119": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200120": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200121": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200122": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200123": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200124": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200125": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200126": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200127": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200128": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200129": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200130": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200131": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200132": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200133": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200134": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200135": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200136": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200137": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200138": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200139": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200140": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200141": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200142": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200143": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200144": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200145": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200146": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200147": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200148": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200149": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200150": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200151": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200152": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200153": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200154": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200155": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200156": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200157": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200158": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200159": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200160": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200161": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200162": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200163": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200164": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200165": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200166": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200167": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200168": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200169": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200170": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200171": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200172": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200173": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200174": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200175": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200176": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200177": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200178": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200179": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200180": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200181": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200182": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200183": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200184": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200185": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200186": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200187": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200188": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200189": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200190": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200191": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200192": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200193": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200194": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200195": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200196": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200197": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200198": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200199": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200200": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200201": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200202": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200203": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200204": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200205": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200206": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200207": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200208": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200209": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200210": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200211": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200212": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200213": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200214": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200215": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200216": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200217": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200218": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200219": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200220": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200221": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200222": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200223": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200224": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200225": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200226": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200227": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200228": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200229": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200230": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200231": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200232": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200233": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200234": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200235": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200236": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200237": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200238": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200239": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200240": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200241": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200242": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200243": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200244": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200245": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200246": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200247": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200248": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200249": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200250": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200251": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": "expert_failed"
+ },
+ "200252": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ },
+ "200253": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base0"
+  },
+  "reason": ""
+ }
+}

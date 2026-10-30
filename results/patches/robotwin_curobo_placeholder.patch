@@ -1,0 +1,28 @@
+diff --git a/envs/robot/planner.py b/envs/robot/planner.py
+index 21ae432..1e9eabb 100644
+--- a/envs/robot/planner.py
++++ b/envs/robot/planner.py
+@@ -275,6 +275,23 @@ except Exception as e:
+     print('Exception traceback:')
+     traceback.print_exc()
+ 
++    class CuroboPlanner:
++        """Placeholder so joint-space (qpos) control works without CuRobo installed."""
++
++        def __init__(self, *args, **kwargs):
++            pass
++
++        def plan_grippers(self, now_val, target_val):
++            num_step = 200
++            return {
++                "num_step": num_step,
++                "per_step": (target_val - now_val) / num_step,
++                "result": np.linspace(now_val, target_val, num_step),
++            }
++
++        def __getattr__(self, name):
++            raise RuntimeError(f"CuRobo is not installed; CuroboPlanner.{name} is unavailable.")
++
+ 
+ # ********************** MplibPlanner **********************
+ class MplibPlanner:

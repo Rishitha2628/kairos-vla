@@ -1,0 +1,26 @@
+{
+ "grid": {
+  "frames": 2211,
+  "frames_within_2cm": 178,
+  "frames_beyond_5cm": 1734,
+  "spearman_score_vs_hand_error": 0.8018556509337897,
+  "auc_within2cm_vs_beyond5cm": 0.9884303357826938,
+  "expert_best_frame_hand_error_cm_median": 0.8158597946166992,
+  "expert_best_frame_within_3cm": 1.0,
+  "policy_best_frame_hand_error_cm_median": 10.643136978149414,
+  "scenes_expert_grasp_beats_policy": 0.8666666666666667,
+  "n_scenes": 15
+ },
+ "global": {
+  "frames": 2211,
+  "frames_within_2cm": 178,
+  "frames_beyond_5cm": 1734,
+  "spearman_score_vs_hand_error": 0.7814631595940984,
+  "auc_within2cm_vs_beyond5cm": 0.9509155942614984,
+  "expert_best_frame_hand_error_cm_median": 1.5449202060699463,
+  "expert_best_frame_within_3cm": 0.8,
+  "policy_best_frame_hand_error_cm_median": 10.643136978149414,
+  "scenes_expert_grasp_beats_policy": 0.7333333333333333,
+  "n_scenes": 15
+ }
+}

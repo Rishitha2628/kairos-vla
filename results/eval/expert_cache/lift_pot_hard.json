@@ -1,0 +1,466 @@
+{
+ "100000": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": "expert_failed"
+ },
+ "100001": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base2"
+  },
+  "reason": ""
+ },
+ "100002": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": ""
+ },
+ "100003": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100004": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base4"
+  },
+  "reason": ""
+ },
+ "100005": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base2"
+  },
+  "reason": "expert_failed"
+ },
+ "100006": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": "expert_failed"
+ },
+ "100007": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base2"
+  },
+  "reason": "expert_failed"
+ },
+ "100008": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100009": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": "expert_failed"
+ },
+ "100010": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base4"
+  },
+  "reason": ""
+ },
+ "100011": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": ""
+ },
+ "100012": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base1"
+  },
+  "reason": "expert_failed"
+ },
+ "100013": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": ""
+ },
+ "100014": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100015": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": "expert_failed"
+ },
+ "100016": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base4"
+  },
+  "reason": ""
+ },
+ "100017": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": ""
+ },
+ "100018": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": "expert_failed"
+ },
+ "100019": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": "expert_failed"
+ },
+ "100020": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base2"
+  },
+  "reason": ""
+ },
+ "100021": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base4"
+  },
+  "reason": ""
+ },
+ "100022": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100023": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": ""
+ },
+ "100024": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": ""
+ },
+ "100025": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": ""
+ },
+ "100026": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100027": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": ""
+ },
+ "100028": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100029": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base1"
+  },
+  "reason": "expert_failed"
+ },
+ "100030": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100031": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": ""
+ },
+ "100032": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100033": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base4"
+  },
+  "reason": ""
+ },
+ "100034": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": "expert_failed"
+ },
+ "100035": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base2"
+  },
+  "reason": ""
+ },
+ "100036": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": ""
+ },
+ "100037": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": "expert_failed"
+ },
+ "100038": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base2"
+  },
+  "reason": "expert_failed"
+ },
+ "100039": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base1"
+  },
+  "reason": "expert_failed"
+ },
+ "100040": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base2"
+  },
+  "reason": "expert_failed"
+ },
+ "100041": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base2"
+  },
+  "reason": ""
+ },
+ "100042": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base2"
+  },
+  "reason": "expert_failed"
+ },
+ "100043": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": "expert_failed"
+ },
+ "100044": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100045": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": "expert_failed"
+ },
+ "100046": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base2"
+  },
+  "reason": "expert_failed"
+ },
+ "100047": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100048": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": "expert_failed"
+ },
+ "100049": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100050": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": "expert_failed"
+ },
+ "100051": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": "expert_failed"
+ },
+ "100052": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base4"
+  },
+  "reason": ""
+ },
+ "100053": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": "expert_failed"
+ },
+ "100054": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base4"
+  },
+  "reason": ""
+ },
+ "100055": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": ""
+ },
+ "100056": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base4"
+  },
+  "reason": ""
+ },
+ "100057": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100058": {
+  "solvable": false,
+  "info": {},
+  "reason": "AssertionError: target_pose cannot be None for move action."
+ },
+ "100059": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": "expert_failed"
+ },
+ "100060": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base4"
+  },
+  "reason": ""
+ },
+ "100061": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base2"
+  },
+  "reason": "expert_failed"
+ },
+ "100062": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": ""
+ },
+ "100063": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base2"
+  },
+  "reason": ""
+ },
+ "100064": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base4"
+  },
+  "reason": ""
+ },
+ "100065": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": "expert_failed"
+ },
+ "100066": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base4"
+  },
+  "reason": ""
+ },
+ "100067": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": ""
+ },
+ "100068": {
+  "solvable": false,
+  "info": {
+   "{A}": "060_kitchenpot/base3"
+  },
+  "reason": "expert_failed"
+ },
+ "100069": {
+  "solvable": true,
+  "info": {
+   "{A}": "060_kitchenpot/base6"
+  },
+  "reason": ""
+ }
+}
