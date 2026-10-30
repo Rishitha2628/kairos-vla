@@ -1,0 +1,1065 @@
+{
+ "model_dir": "/home/rishi/kairos/outputs/smolvla_baseline/final",
+ "world_model": "/home/rishi/kairos/outputs/world_model3",
+ "task": "lift_pot",
+ "variant": "position",
+ "noise_seed": 1,
+ "refine_steps": 0,
+ "min_gain": 0.002,
+ "max_grasps": 2,
+ "success_rate": 0.0,
+ "successes": 0,
+ "episodes_run": 50,
+ "episodes": [
+  {
+   "seed": 100002,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the kitchenpot for boiling and cooking upward with both arms",
+   "seconds": 40.9,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0948,
+      0.1219
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0948,
+      0.1219
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100003,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold and raise the kitchenpot with smooth exterior together",
+   "seconds": 30.9,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1527,
+      0.0665
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1527,
+      0.0665
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100007,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the dark gray stove kitchenpot up together",
+   "seconds": 31.3,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0988,
+      0.1341
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0988,
+      0.1341
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100011,
+   "success": false,
+   "actions": 400,
+   "instruction": "Bring the gray kitchenpot upwards together",
+   "seconds": 31.7,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1545,
+      0.1384
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1545,
+      0.1384
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100012,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the cylindrical kitchenpot steadily with support",
+   "seconds": 31.1,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1317,
+      0.1332
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1317,
+      0.1332
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100013,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the cooking kitchenpot with side grips carefully using both arms.",
+   "seconds": 38.3,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1039,
+      0.0548
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1039,
+      0.0548
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100015,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the cooking kitchenpot with side grips steadily with support",
+   "seconds": 32.3,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1501,
+      0.0659
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1501,
+      0.0659
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100017,
+   "success": false,
+   "actions": 400,
+   "instruction": "Pick up the medium-sized kitchenpot with both arms",
+   "seconds": 33.4,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0937,
+      0.1023
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0937,
+      0.1023
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100019,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the kitchenpot for boiling and cooking steadily using arms",
+   "seconds": 33.8,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.118,
+      0.1788
+     ],
+     "steps": [],
+     "dist_after": [
+      0.118,
+      0.1788
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100023,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the medium-sized kitchenpot evenly with arms",
+   "seconds": 32.9,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1074,
+      0.0543
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1074,
+      0.0543
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100026,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the medium-sized kitchenpot using both arms now.",
+   "seconds": 37.8,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1016,
+      0.1602
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1016,
+      0.1602
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100027,
+   "success": false,
+   "actions": 400,
+   "instruction": "Pick up the medium kitchenpot made of metal with both arms",
+   "seconds": 32.4,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0652,
+      0.1347
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0652,
+      0.1347
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100032,
+   "success": false,
+   "actions": 400,
+   "instruction": "Use both arms to raise the smooth gray kitchenpot.",
+   "seconds": 33.5,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0946,
+      0.0994
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0946,
+      0.0994
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100033,
+   "success": false,
+   "actions": 400,
+   "instruction": "Place hands on the cooking kitchenpot with side grips, then lift.",
+   "seconds": 33.1,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0881,
+      0.1888
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0881,
+      0.1888
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100035,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold the metal kitchenpot with both arms",
+   "seconds": 33.9,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1461,
+      0.0714
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1461,
+      0.0714
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100037,
+   "success": false,
+   "actions": 400,
+   "instruction": "Use both arms to raise the medium-sized kitchenpot.",
+   "seconds": 39.0,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0696,
+      0.0702
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0696,
+      0.0702
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100038,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the gray kitchenpot steadily using arms",
+   "seconds": 33.2,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.044,
+      0.1026
+     ],
+     "steps": [],
+     "dist_after": [
+      0.044,
+      0.1026
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100039,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the cooking kitchenpot with side grips evenly with arms",
+   "seconds": 34.0,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.034,
+      0.0818
+     ],
+     "steps": [],
+     "dist_after": [
+      0.034,
+      0.0818
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100040,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the kitchenpot for boiling and cooking and lift it upwards",
+   "seconds": 35.0,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1123,
+      0.0984
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1123,
+      0.0984
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100042,
+   "success": false,
+   "actions": 400,
+   "instruction": "Place hands on the kitchenpot with smooth exterior, then lift.",
+   "seconds": 37.2,
+   "grasps": [
+    {
+     "at_action": 75,
+     "dist_before": [
+      0.0645,
+      0.0672
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0645,
+      0.0672
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100044,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold the round kitchenpot with handles with both arms",
+   "seconds": 38.8,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1039,
+      0.0996
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1039,
+      0.0996
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100046,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the smooth gray kitchenpot and lift it up",
+   "seconds": 33.7,
+   "grasps": [
+    {
+     "at_action": 75,
+     "dist_before": [
+      0.0857,
+      0.0886
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0857,
+      0.0886
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100048,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the gray cylindrical metal kitchenpot up together",
+   "seconds": 30.7,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1498,
+      0.1289
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1498,
+      0.1289
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100052,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the kitchenpot with smooth exterior securely with arms",
+   "seconds": 32.0,
+   "grasps": [
+    {
+     "at_action": 75,
+     "dist_before": [
+      0.0858,
+      0.0546
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0858,
+      0.0546
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100054,
+   "success": false,
+   "actions": 400,
+   "instruction": "With arms, raise the gray cylindrical metal kitchenpot upward slowly.",
+   "seconds": 31.2,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1516,
+      0.077
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1516,
+      0.077
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100057,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold and raise the gray kitchenpot together",
+   "seconds": 38.9,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0715,
+      0.1008
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0715,
+      0.1008
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100058,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the dark gray stove kitchenpot together with arms",
+   "seconds": 34.2,
+   "grasps": [
+    {
+     "at_action": 75,
+     "dist_before": [
+      0.0303,
+      0.0157
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0303,
+      0.0157
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100060,
+   "success": false,
+   "actions": 400,
+   "instruction": "Both arms lift the gray cylindrical metal kitchenpot upright",
+   "seconds": 30.8,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1047,
+      0.0866
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1047,
+      0.0866
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100066,
+   "success": false,
+   "actions": 400,
+   "instruction": "With arms, raise the cooking kitchenpot with side grips upward slowly.",
+   "seconds": 33.7,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0902,
+      0.0818
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0902,
+      0.0818
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100067,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the metal kitchenpot and lift it up",
+   "seconds": 32.4,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0949,
+      0.0687
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0949,
+      0.0687
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100068,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the medium-sized kitchenpot together using arms",
+   "seconds": 41.0,
+   "grasps": [
+    {
+     "at_action": 75,
+     "dist_before": [
+      0.0633,
+      0.0242
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0633,
+      0.0242
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100069,
+   "success": false,
+   "actions": 400,
+   "instruction": "Support the round kitchenpot with handles and raise it upward",
+   "seconds": 31.4,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1366,
+      0.0652
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1366,
+      0.0652
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100072,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold the medium-sized kitchenpot with both arms",
+   "seconds": 31.6,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0754,
+      0.1184
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0754,
+      0.1184
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100073,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grasp the kitchenpot with smooth exterior and elevate together.",
+   "seconds": 33.7,
+   "grasps": [
+    {
+     "at_action": 75,
+     "dist_before": [
+      0.1548,
+      0.0841
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1548,
+      0.0841
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100074,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the metal kitchenpot and lift together",
+   "seconds": 31.4,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0951,
+      0.0356
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0951,
+      0.0356
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100075,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the round kitchenpot with handles upward with both arms",
+   "seconds": 37.1,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1424,
+      0.0673
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1424,
+      0.0673
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100077,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the dark gray stove kitchenpot using both arms now.",
+   "seconds": 31.0,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0837,
+      0.0893
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0837,
+      0.0893
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100080,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the round kitchenpot with handles steadily with support",
+   "seconds": 32.1,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.119,
+      0.0677
+     ],
+     "steps": [],
+     "dist_after": [
+      0.119,
+      0.0677
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100082,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold the kitchenpot with smooth exterior firmly with arms",
+   "seconds": 31.1,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1489,
+      0.1185
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1489,
+      0.1185
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100083,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise the medium kitchenpot made of metal evenly with arms",
+   "seconds": 32.9,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0709,
+      0.1102
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0709,
+      0.1102
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100085,
+   "success": false,
+   "actions": 400,
+   "instruction": "Hold the cooking kitchenpot with side grips and lift upward",
+   "seconds": 38.9,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0493,
+      0.0743
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0493,
+      0.0743
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100086,
+   "success": false,
+   "actions": 400,
+   "instruction": "Take hold of the smooth gray kitchenpot and lift up",
+   "seconds": 31.3,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1408,
+      0.1118
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1408,
+      0.1118
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100087,
+   "success": false,
+   "actions": 400,
+   "instruction": "Pick up the gray cylindrical metal kitchenpot with careful lifting",
+   "seconds": 30.9,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.0633,
+      0.1555
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0633,
+      0.1555
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100089,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the gray kitchenpot carefully using both arms.",
+   "seconds": 31.9,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1018,
+      0.1118
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1018,
+      0.1118
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100091,
+   "success": false,
+   "actions": 400,
+   "instruction": "Secure the round kitchenpot with handles and lift upward.",
+   "seconds": 33.8,
+   "grasps": [
+    {
+     "at_action": 75,
+     "dist_before": [
+      0.1317,
+      0.0133
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1317,
+      0.0133
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100094,
+   "success": false,
+   "actions": 400,
+   "instruction": "Take hold of the metal kitchenpot and lift up",
+   "seconds": 41.9,
+   "grasps": [
+    {
+     "at_action": 75,
+     "dist_before": [
+      0.1852,
+      0.1122
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1852,
+      0.1122
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100095,
+   "success": false,
+   "actions": 400,
+   "instruction": "Lift the gray kitchenpot carefully using arms",
+   "seconds": 30.8,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1014,
+      0.099
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1014,
+      0.099
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100096,
+   "success": false,
+   "actions": 400,
+   "instruction": "Place hands on the medium kitchenpot made of metal, then lift.",
+   "seconds": 32.7,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1093,
+      0.1577
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1093,
+      0.1577
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100097,
+   "success": false,
+   "actions": 400,
+   "instruction": "Raise and hold the metal kitchenpot together",
+   "seconds": 32.2,
+   "grasps": [
+    {
+     "at_action": 50,
+     "dist_before": [
+      0.1456,
+      0.0565
+     ],
+     "steps": [],
+     "dist_after": [
+      0.1456,
+      0.0565
+     ]
+    }
+   ]
+  },
+  {
+   "seed": 100098,
+   "success": false,
+   "actions": 400,
+   "instruction": "Grab the cylindrical kitchenpot using both arms",
+   "seconds": 38.6,
+   "grasps": [
+    {
+     "at_action": 75,
+     "dist_before": [
+      0.0329,
+      0.0156
+     ],
+     "steps": [],
+     "dist_after": [
+      0.0329,
+      0.0156
+     ]
+    }
+   ]
+  }
+ ]
+}

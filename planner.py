@@ -82,9 +82,11 @@ class WorldModelPlanner:
         self.horizon = ck["horizon"]
         self.wm = WorldModel(self.horizon, n_cams=ck["n_cams"]).to(device).eval()
         self.wm.load_state_dict(ck["state_dict"])
-        vk = torch.load(model_dir / "value.pt", weights_only=True)
-        self.value = ValueModel(n_cams=vk["n_cams"]).to(device).eval()
-        self.value.load_state_dict(vk["state_dict"])
+        self.value = None
+        if (model_dir / "value.pt").exists():  # the Stage 2 success scorer (not in world_model3)
+            vk = torch.load(model_dir / "value.pt", weights_only=True)
+            self.value = ValueModel(n_cams=vk["n_cams"]).to(device).eval()
+            self.value.load_state_dict(vk["state_dict"])
         self.encoder = offload_blocks(load_encoder("cpu", self.dtype), device)
 
     @torch.no_grad()
@@ -106,3 +108,70 @@ class WorldModelPlanner:
             grid = self.wm(grid, (st - self.state_mean) / self.state_std, (acts - st[:, None]) / self.delta_std / 10)
             st = acts[:, -1]
         return torch.sigmoid(self.value(grid)).cpu().numpy()
+
+
+class ReachPlanner(WorldModelPlanner):
+    """Stage 3 (generalisation): search small arm corrections that make the wrist views look like the demos just
+    before grasping (stage0_analyze.py's goal score), imagined by the world model trained on play data.
+
+    A candidate is one offset `delta` of the 12 arm joints, reached linearly over the first `n_exec` steps and
+    then held; the gripper keeps its current opening. Cross-entropy search: `n` samples per round, the `elite`
+    best refit the sampling mean/std, `rounds` rounds; delta is clipped to +-max_delta rad, so a single decision
+    can only move the hands a few cm (re-planned from real images after every n_exec steps).
+    """
+
+    def __init__(self, model_dir, device, n=64, rounds=3, elite=8, sigma=0.04, max_delta=0.08, n_exec=8):
+        super().__init__(model_dir, device, hops=1)
+        self.n, self.rounds, self.elite, self.sigma, self.max_delta, self.n_exec = n, rounds, elite, sigma, max_delta, n_exec
+        goals_path = Path(model_dir) / "goals.pt"
+        if not goals_path.exists():
+            import stage0_analyze
+            g = stage0_analyze.demo_goals()
+            torch.save({c: g[c]["grid"].half() for c in stage0_analyze.WRISTS}, goals_path)
+        g = torch.load(goals_path, weights_only=True)
+        self.wrists = [self.cameras.index(c) for c in ("cam_left_wrist", "cam_right_wrist")]
+        self.goals = [g[c].to(device).float() for c in ("cam_left_wrist", "cam_right_wrist")]  # (100, 16, 1408)
+
+    def goal_score(self, grid_std):
+        """(B, cells, 1408) standardized -> (B,) lower = closer to "just before grasping"."""
+        raw = grid_std * self.std + self.mean
+        total = 0
+        for k, goals in zip(self.wrists, self.goals):
+            w = raw[:, k * CELLS:(k + 1) * CELLS]
+            total = total + torch.stack([(w - g).abs().mean((1, 2)) for g in goals], 1).min(1).values
+        return total
+
+    def plans(self, state, deltas):
+        """deltas (B, 12) -> absolute action sequences (B, horizon, 14)."""
+        ramp = torch.clamp(torch.arange(1, self.horizon + 1, device=self.device) / self.n_exec, max=1.0)
+        acts = state[None, None].repeat(len(deltas), self.horizon, 1)
+        acts[:, :, ARM] += ramp[None, :, None] * deltas[:, None]
+        return acts
+
+    @torch.no_grad()
+    def refine(self, images, state, generator=None):
+        """-> (actions (n_exec, 14) float32, imagined score of the best correction, imagined score of staying put)."""
+        grid = self.summarize(images)[None]
+        st = torch.as_tensor(state, dtype=torch.float32, device=self.device)
+
+        def score(deltas):
+            acts = self.plans(st, deltas)
+            g = self.wm(grid.expand(len(deltas), -1, -1), ((st - self.state_mean) / self.state_std)[None].expand(len(deltas), -1),
+                        (acts - st[None, None]) / self.delta_std / 10)
+            return self.goal_score(g)
+
+        mu = torch.zeros(len(ARM), device=self.device)
+        sigma = torch.full_like(mu, self.sigma)
+        stay = score(mu[None])[0]
+        best, best_score = mu, stay
+        for _ in range(self.rounds):
+            noise = torch.randn(self.n, len(ARM), device=self.device, generator=generator)
+            deltas = (mu + sigma * noise).clamp(-self.max_delta, self.max_delta)
+            s = score(deltas)
+            top = torch.argsort(s)[:self.elite]
+            if s[top[0]] < best_score:
+                best, best_score = deltas[top[0]], s[top[0]]
+            mu, sigma = deltas[top].mean(0), deltas[top].std(0).clamp_min(0.005)
+        acts = self.plans(st, best[None])[0, :self.n_exec]
+        torch.cuda.empty_cache()
+        return acts.cpu().numpy().astype(np.float32), float(best_score), float(stay)

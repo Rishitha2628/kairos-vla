@@ -14,6 +14,8 @@ Requests (policy_link messages):
       with --planner DIR and n_samples > 1, "actions" is the plan the world model rates best (planner.py),
       and the reply also has "scores" (n,) and "chosen"; --candidates varied also scores shifted-grasp and
       arm-drift versions of the plans (planner.varied_candidates) and adds "chosen_kind"
+  {"cmd": "refine", "images": ..., "state": ...}          -> {"actions": float32[8, 14], "score", "stay"}
+      with --reach-planner DIR: a small arm correction toward "just before grasping" (planner.ReachPlanner)
   {"cmd": "close"}                                        -> server exits
 """
 import argparse
@@ -84,6 +86,7 @@ def main():
     ap.add_argument("--device", default="cuda")
     ap.add_argument("--planner", type=Path, default=None, help="world-model dir: pick the best of n_samples plans")
     ap.add_argument("--candidates", choices=["samples", "varied"], default="samples")
+    ap.add_argument("--reach-planner", type=Path, default=None, help="world-model dir for the 'refine' command")
     args = ap.parse_args()
 
     if (args.model_dir / "model.safetensors").exists():
@@ -102,6 +105,12 @@ def main():
         from planner import WorldModelPlanner
         planner = WorldModelPlanner(args.planner, args.device)
         print(f"planner: world model from {args.planner}", flush=True)
+
+    reach = None
+    if args.reach_planner is not None:
+        from planner import ReachPlanner
+        reach = ReachPlanner(args.reach_planner, args.device)
+        print(f"reach planner: world model from {args.reach_planner}", flush=True)
 
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -147,6 +156,9 @@ def main():
                     # hand cached blocks back: the simulator's renderer shares this 6 GB GPU
                     torch.cuda.empty_cache()
                 policy_link.send(conn, reply)
+            elif msg["cmd"] == "refine":
+                actions, best, stay = reach.refine(msg["images"], msg["state"])
+                policy_link.send(conn, {"actions": actions, "score": best, "stay": stay})
             elif msg["cmd"] == "close":
                 policy_link.send(conn, {"ok": True})
                 break

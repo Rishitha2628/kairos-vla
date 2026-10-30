@@ -57,11 +57,34 @@ world model reach those poses with no expert demos there.
   on expert frames alone); in every expert run the best-scoring frame is within 3 cm (median 0.8 cm).
   Weaker between 2 and 6 cm.
 - **Stage 1, play data** (`collect_rollouts.py --play --variant wide`): 200 recordings with the pot
-  anywhere in ±10 cm / ±45° and large random arm drifts on SmolVLA's plans. No expert.
-- **Stage 2, world model on play data** (`train_world_model3.py`): does the imagined future know where
-  the hands end up at new positions? *Running.*
-- **Stage 3, planner** that searches its own arm motions toward the goal signal, then (a) a fixed
-  close-and-lift or (b) SmolVLA takes over the grasp. *Next.*
+  anywhere in ±10 cm / ±45° and large random arm drifts on SmolVLA's plans. No expert. 11 succeed by
+  chance; the hands rarely get within 3 cm of the handles.
+- **Stage 2, world model on play data** (`train_world_model3.py`): the same world model, trained on the
+  demos plus the play data. 8-step prediction error (lower is better): copy the current scene 1.12,
+  ignore the actions 0.78, real actions 0.69, wrong actions 0.91. The goal score of the imagined future
+  tracks the true future hand–handle change for hands 2–6 cm away (Spearman 0.73 vs 0.62 without
+  actions); the action-specific part is weak but real.
+- **Stage 3, reach planner** (`planner.ReachPlanner`, `stage3_eval.py`): SmolVLA drives; when it is about
+  to close a gripper, a CEM search over small arm offsets (64 samples × 3 rounds, ±0.08 rad, 8 steps)
+  picks the one whose imagined wrist views score best, runs it and re-plans from new images, up to N
+  times. Then (a) both grippers close with the arm held and SmolVLA lifts, or (b) SmolVLA grasps itself.
+
+| lift_pot **position** (unseen poses), smoothed, same 50 scenes | success | worse hand to handle at grasp (median) |
+|---|---|---|
+| SmolVLA alone | 2 (4%) | — |
+| control: (a) fixed grasp, no world model | 0 (0%) | 11.5 cm |
+| **world model, 8 corrections + (a) fixed grasp** | **6 (12%)** | **7.4 cm** |
+| world model, 24 corrections + (a) fixed grasp | 5 (10%) | 9.4 cm |
+| world model, 8 corrections + (b) SmolVLA grasps | 4 (8%) | 7.4 cm |
+
+- Every scene where the planner brought both hands within 3 cm of the handles succeeded with (a), 6 of 6.
+  Reaching is the bottleneck, not the grasp or the lift.
+- More corrections do not help: after a few steps the hands drift away again (the planner follows the
+  world model's errors), so the model is not precise in the last few centimetres.
+- With (b), SmolVLA moved the hands off again before closing in 3 of the 6 scenes the planner had
+  brought within 3 cm.
+- 50 scenes is small: 6/50 vs the 0/50 control is clear, 6/50 vs 2/50 needs a 150-scene rerun.
+- *Next:* play data with the hands near the handles, so the world model learns the last few centimetres.
 
 Result files: `results/eval/<run>/<task>_<variant>.json` (per episode), `results/world_model/`.
 
@@ -77,7 +100,8 @@ python step4_eval.py --model-dir outputs/smolvla_baseline/final --task lift_pot 
 ```
 
 Parts 2 and 3: `run_diversity.sh`, `run_stage2.sh`, `run_stage3.sh`, `run_position_test.sh`,
-`run_stage0_analyze.sh`, `run_stage2_gen.sh` (each lists its commands).
+`run_stage0_analyze.sh`, `run_stage2_gen.sh`, `run_stage3_gen.sh`, `run_stage3_r24.sh`,
+`run_stage3_policygrab.sh` (each lists its commands).
 
 | file | role |
 |---|---|
@@ -89,8 +113,9 @@ Parts 2 and 3: `run_diversity.sh`, `run_stage2.sh`, `run_stage3.sh`, `run_positi
 | `action_smoothing.py` | chunk filtering and crossfade (`--smooth`) |
 | `world_model.py`, `train_world_model*.py`, `diag_world_model.py` | world models and their tests |
 | `collect_rollouts.py`, `encode_rollouts.py` | recorded attempts / play data and their V-JEPA 2 grids |
-| `planner.py` | world-model planner used by `policy_server.py --planner` |
+| `planner.py` | world-model planners: `--planner` (picks among SmolVLA plans), `--reach-planner` (reach to the goal views) |
 | `stage0_record.py`, `stage0_analyze.py` | goal-signal test at new pot positions |
+| `stage3_eval.py` | SmolVLA + reach planner at new pot positions |
 | `thermal_guard.py`, `auto_resume.py` | pause when the laptop runs hot; restart after crashes |
 
 ## Setup
